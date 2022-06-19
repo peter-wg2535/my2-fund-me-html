@@ -1,0 +1,2 @@
+install package :yarn 
+run server : yarn http-server
