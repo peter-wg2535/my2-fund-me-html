@@ -21,7 +21,7 @@ async function connect() {
     const accounts = await ethereum.request({ method: "eth_accounts" })
     console.log(accounts)
   } else {
-    connectButton.innerHTML = "Please install MetaMask"
+    connectButton.innerHTML = "You have to install MetaMask before connecting wallet"
   }
 }
 
