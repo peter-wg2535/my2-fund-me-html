@@ -1,6 +1,13 @@
-// Rinkeby
-export const contractAddress = "0xc6367f79e1f59531B321bB293ebE2a67E48562De"
 
+//export const contractAddress = "0xc6367f79e1f59531B321bB293ebE2a67E48562De"  // Rinkeby
+export const contractAddress = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512" //Hardhat Node
+
+// Hardhat Node , open cmd and cd to project my2-fund_me-hh and  type :  npx hardhat node
+//FundMe deployed at 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512
+//Started HTTP and WebSocket JSON-RPC server at http://127.0.0.1:8545/
+
+
+//my2-fund_me-hh\artifacts\contracts\FundMe.sol\FundMe.json
 export const abi = [
   {
     inputs: [
